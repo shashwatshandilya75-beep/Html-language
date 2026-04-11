@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">First Webpage</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>My First Webpage</h1>
+            <p>Welcome to my very first project built with HTML and CSS.</p>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="features">
+            <div class="card">
+                <h3>The Vision</h3>
+                <p>Starting small but thinking big. This page is the foundation of my coding journey.</p>
+            </div>
+            <div class="card">
+                <h3>The Skills</h3>
+                <p>Learning how to structure content with HTML and style it with CSS.</p>
+            </div>
+            <div class="card">
+                <h3>The Future</h3>
+                <p>Next steps: Adding interactivity with JavaScript and building complex layouts.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 First Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
