@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Villa | Luxury Living</title>
+    <link rel="stylesheet" href="appvilla.css">
+    <!-- Google Fonts for elegant typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">AP Villa</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Experience Pure Luxury</h1>
+            <p>Your private paradise awaits at AP Villa</p>
+            <a href="#contact" class="btn">Book Your Stay</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About The Villa</h2>
+            <p>Nestled in a serene location, AP Villa offers an unparalleled escape from the everyday. Combining contemporary architecture with timeless elegance, our villa provides the perfect backdrop for relaxation, rejuvenation, and unforgettable memories.</p>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <h2>World-Class Amenities</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Infinity Pool</h3>
+                    <p>Dive into crystal clear waters overlooking breathtaking natural landscapes.</p>
+                </div>
+                <div class="card">
+                    <h3>Smart Home Tech</h3>
+                    <p>Control lighting, climate, and entertainment effortlessly with touch commands.</p>
+                </div>
+                <div class="card">
+                    <h3>Private Chef</h3>
+                    <p>Savor bespoke culinary masterpieces tailored exactly to your taste preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message or Booking Request" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AP Villa. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
